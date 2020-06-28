@@ -30,17 +30,14 @@
 
 .starter img{
     width: 80%;
-    /* background-image: image('../asserts/starter.svg'); */
 }
 
 .launchbase img{
     width: 100%;
-    /* background-image: image('../asserts/launchbase.svg'); */
 }
 
 .gostack img{
     width: 90%;
-    /* background-image: image('../asserts/gostack.svg'); */
 }
 
 .card__content,
