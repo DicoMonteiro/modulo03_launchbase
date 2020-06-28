@@ -6,6 +6,10 @@
     --color-rocket: #8b8b8b;
 }
 
+#wrapper {
+    margin-bottom: 50px;
+}
+
 /*==== CARDS ==== */
 
 .cards {
@@ -25,19 +29,24 @@
 }
 
 .card__image-container img{
+    margin-top: 12px;
     width: 50%;
 }
 
 .starter img{
-    width: 80%;
+    width: 100%;
+    height: 150px;
+    /* align-items: center; */
 }
 
 .launchbase img{
     width: 100%;
+    height: 150px;
 }
 
 .gostack img{
-    width: 90%;
+    width: 100%;
+    height: 150px;
 }
 
 .card__content,
@@ -48,14 +57,7 @@
 .card__info {
     display: grid;
     grid-template-columns: 1fr 1fr;
-}
-
-.content_launchbase {
-    height: 80px;
-}
-
-.content_launchbase p {
-    margin-top: 60px;
+    align-items: center;
 }
 
 .card__price {
