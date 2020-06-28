@@ -120,14 +120,15 @@ iframe {
 
 .links-sociais {
     text-align: center;
+    margin-top: 32px;
 }
 
 .links-sociais a {
     color: white;
     font-size: 18px;
-    line-height: 400px;
+    line-height: 120px;
     margin: 0 16px;
-    padding-bottom: 3px;
+    /* padding-bottom: 3px; */
     text-decoration: none;
 }
 
