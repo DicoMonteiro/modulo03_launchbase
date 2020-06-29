@@ -5,7 +5,8 @@ module.exports = [
         info: {
             duration: "57 min",
             price: "Free"
-        }
+        },
+        featured: true
     },
     {
         id: "HN1UjzRSdBk",
@@ -29,7 +30,8 @@ module.exports = [
         info: {
             duration: "33 min",
             price: "Free"
-        }
+        },
+        featured: true
     },
     {
         id: "GSqR2i-Pq6o",
@@ -45,6 +47,7 @@ module.exports = [
         info: {
             duration: "33 min",
             price: "Free"
-        }
+        },
+        featured: true
     }
 ]

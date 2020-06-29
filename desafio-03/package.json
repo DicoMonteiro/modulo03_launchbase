@@ -1,6 +1,6 @@
 {
-  "name": "desafio-02",
-  "version": "2.0.0",
+  "name": "desafio-03",
+  "version": "3.0.0",
   "main": "server.js",
   "scripts": {
     "start": "nodemon server.js"

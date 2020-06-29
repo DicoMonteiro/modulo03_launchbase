@@ -1,0 +1,163 @@
+/* Iniciando com CSS */
+@import "https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap";
+
+:root {
+    --color-orange: #D2691E;
+    --color-rocket: #8b8b8b;
+}
+
+#wrapper {
+    margin-bottom: 50px;
+}
+
+/*==== CARDS ==== */
+
+.cards {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+}
+
+.card {
+    background-color: var(--color-rocket);
+    border: 5px solid var(--color-orange);
+    align-items: center;
+
+    cursor: pointer;
+
+    border-radius: 20px;
+}
+
+.card__image-container img{
+    margin-top: 12px;
+    width: 50%;
+}
+
+.starter img{
+    width: 100%;
+    height: 150px;
+    /* align-items: center; */
+}
+
+.launchbase img{
+    width: 100%;
+    height: 150px;
+}
+
+.gostack img{
+    width: 100%;
+    height: 150px;
+}
+
+.card__content,
+.card__info {
+    padding: 24px;
+}
+
+.card__info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.card__price {
+    background-color: var(--color-rocket);
+    filter: brightness(90%);
+    padding: 5px 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+
+/*==== MODAL ==== */
+
+.modal-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    opacity: 0;
+    /* Visibilidade do componente deve estar escondida */
+    visibility: hidden;
+}
+
+.modal {
+    background-color: white;
+    margin: 5vh auto;
+    position: relative;
+}
+
+
+.modal .close-modal {
+    color: black;
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    cursor: pointer;
+}
+
+/*==== MODAL.ACTIVE & MODAL.MAXIMIZE ==== */
+
+.modal-overlay.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.modal.maximize {
+    width: 90%;
+    height: 90%;
+
+}
+
+iframe {
+    width: 100%;
+    height: 90%;
+    position: absolute;
+    top: 5%;
+}
+
+/* ==== Links ==== */
+
+
+.links-sociais {
+    text-align: center;
+    margin-top: 32px;
+}
+
+.links-sociais a {
+    color: white;
+    font-size: 18px;
+    line-height: 120px;
+    margin: 0 16px;
+    /* padding-bottom: 3px; */
+    text-decoration: none;
+}
+
+.links-sociais a:hover {
+    color: #D2691E;
+    transition: color 200ms;
+    border-bottom: 1px solid #D2691E;
+}
+
+/* === COURSE === */
+
+.course {
+    margin: 0 auto;
+    max-width: 800px;
+
+}
+
+.card__course-container {
+    position: relative;
+    padding-top: 62.5%;
+}
+
+.card__course-container iframe{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}

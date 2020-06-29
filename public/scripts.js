@@ -6,13 +6,14 @@ const cards = document.querySelectorAll('.card')
 for (let card of cards) {
     card.addEventListener('click', function () {
         const video_id = card.getAttribute('id')
-        modalOverlay.classList.add('active')
-        modalOverlay.querySelector('iframe').src = `https://www.youtube.com/embed/${video_id}`
+        // modalOverlay.classList.add('active')
+        // modalOverlay.querySelector('iframe').src = `https://www.youtube.com/embed/${video_id}`
+        window.location.href = `/video?id=${video_id}`
     })
 }
 
-document.querySelector('.close-modal').addEventListener('click', function () {
-    modalOverlay.classList.remove('active')
-    modalOverlay.querySelector('iframe').src = ""
-})
+// document.querySelector('.close-modal').addEventListener('click', function () {
+//     modalOverlay.classList.remove('active')
+//     modalOverlay.querySelector('iframe').src = ""
+// })
 
