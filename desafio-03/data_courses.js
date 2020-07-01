@@ -4,8 +4,8 @@ module.exports = [
         image: "/asserts/starter.svg",
         title: "Curso Starter | Rocketseat",
         infos: {
-            duration: "4 módulos",
-            price: "Free"
+            duration: "4",
+            price: "Acesse o curso!"
         }
     },
     {
@@ -13,8 +13,8 @@ module.exports = [
         image: "/asserts/launchbase.svg",
         title: "Curso Launchbase | Mayk Brito",
         infos: {
-            duration: "12 módulos",
-            price: "Pago"
+            duration: "12",
+            price: "Garanta sua vaga!"
         }
     },
     {
@@ -22,8 +22,8 @@ module.exports = [
         image: "/asserts/gostack.svg",
         title: "Curso GoStack | Diego Fernandes",
         infos: {
-            duration: "15 módulos",
-            price: "Pago"
+            duration: "15",
+            price: "Garanta sua vaga!"
         }
     }
 

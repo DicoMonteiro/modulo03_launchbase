@@ -2,7 +2,7 @@
 @import "https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap";
 
 :root {
-    --color-orange: #D2691E;
+    --color-negrito:  rgba(0, 0, 0, 0.7);;
     --color-rocket: #8b8b8b;
 }
 
@@ -13,10 +13,10 @@
 }
 
 body {
-    /* background: var(--color-rocket); */
-    background: black;
+    /* background: url(https://skylab.rocketseat.com.br/static/media/MountainsOpacity.a4edba24.png) 0% 0% / cover fixed, rgba(0, 0, 0, 0.4); */
+    background: url(https://skylab.rocketseat.com.br/static/media/MountainsOpacity.a4edba24.png) 0% 0% / cover fixed, rgba(0, 0, 0, 1);
     font-family: 'Roboto', sans-serif;
-    color:black;
+    /* color:black; */
     /* border-bottom: 1px solid #333; */
     margin: none;
 }
@@ -25,12 +25,13 @@ header {
     margin: none;
     padding: 30px;
     border-bottom: 1px solid white;
-    background:  #D2691E;
+    background: url(https://skylab.rocketseat.com.br/static/media/MountainsOpacity.a4edba24.png) 0% 0% / cover fixed, rgba(0, 0, 0, 0.4); 
 }
 
 header div {
     text-align: center;
 }
+
 
 header div a {
     color: white;
@@ -40,10 +41,10 @@ header div a {
     text-decoration: none;
 }
 
-header div a:hover {
-    color: black;
-    transition: color 300ms;
-}
+header div a:visited, a:active {
+    text-decoration: none;
+}    
+header div a:hover {text-decoration: underline;  color: silver; font-weight: bold; }
 
 #wrapper {
     text-align: center;
@@ -52,7 +53,7 @@ header div a:hover {
 
 #wrapper img {
     border-radius: 50%;
-    border: 5px solid var(--color-orange);
+    border: 5px solid var(--color-rocket);
     margin-bottom: 32px;
     height: 300px;
 }
@@ -82,12 +83,9 @@ header div a:hover {
 }
 
 #wrapper p a {
-    color: var(--color-orange);
+    color: var(--color-rocket);
+    font-weight: bold; 
 
-}
-
-#links-footer a { 
-     border-bottom: 1px solid var(--color-orange);
 }
 
 .links-footer {
@@ -95,6 +93,7 @@ header div a:hover {
 }
 
 .links-footer a {
+    border-bottom: 1px solid var(--color-rocket);
     color: white;
     font-size: 18px;
     line-height: 28px;
@@ -104,6 +103,27 @@ header div a:hover {
 }
 
 .links-footer a:hover {
-    color: var(--color-orange);
+    color: var(--color-rocket);
     transition: color 200ms;
+}
+
+
+.links-sociais {
+    text-align: center;
+    margin-top: 32px;
+}
+
+.links-sociais a {
+    color: white;
+    font-size: 18px;
+    line-height: 120px;
+    margin: 0 16px;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+.links-sociais a:hover {
+    color: var(--color-rocket);
+    transition: color 200ms;
+    border-bottom: 1px solid var(--color-rocket);
 }

@@ -23,14 +23,14 @@
                     <p>{{ item.title }}</p>
                 </div>
                 <div class="card__info">
-                    <p>{{ item.infos.duration }}</p>
+                    <p>Módulos: {{ item.infos.duration }}</p>
                     <p class="card__price">{{ item.infos.price }}</p>
                 </div>
             </div>
         {% endfor %}
     </section>
 
-    <div class="modal-overlay">
+    {# <div class="modal-overlay">
         <div class="modal">
             <a class="close-modal">
                 <i class="material-icons">close</i>
@@ -41,7 +41,7 @@
                 <iframe src="" frameborder="0"></iframe>
             </div>
         </div>
-    </div>
+    </div> #}
 
     <div class="links-sociais">
         {% for link in links %}
