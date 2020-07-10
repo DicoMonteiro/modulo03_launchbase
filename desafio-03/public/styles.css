@@ -127,3 +127,8 @@ header div a:hover {text-decoration: underline;  color: silver; font-weight: bol
     transition: color 200ms;
     border-bottom: 1px solid var(--color-rocket);
 }
+
+.not-found {
+    align-items: center;
+    text-align: center;
+}
